@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    {{>navbar}}
+
+
+    <div class="image">
+        <img src="photo/clouds.jpeg">
+
+    </div>
+
+    <div class="main_content">
+        <div class="temp_form">
+            <input type="text" id="cityName" placeholder="Enter the city name" autocomplete="off">
+            <input type="submit" value="search" id="submitBtn">
+        </div>
+        <div class="city_name" style="margin-left: 62%; margin-top:3%; font-size:50px">
+            
+        </div>
+        <div class="temperature" style="margin-left: 62%; margin-top:5%; font-size:50px">
+           
+        </div>
+        <div class="Celsius"  style="margin-left: 75%; margin-top:-7%; font-size:50px; display:none">
+        <span><sup>0</sup>C</span>
+           
+        </div>
+        
+        <div class="temperature_status" style="margin-left: 62%; margin-top:5%; font-size:40px">
+          
+        </div>
+        <div class="temperature_status_photo" style="margin-left: 62%; margin-top:5%; font-size:40px">
+           
+        </div>
+
+
+    </div>
+    
+
+    {{>footer name="Jitendra Vishvakarma"}}
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

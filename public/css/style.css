@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Piazzolla:wght@900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    width: 100%;    
+    height: 80px;
+   color: white;
+    background-color: rgb(65, 56, 56);
+    display: flex;
+    align-items: center;
+}
+.navbar h1{
+
+    margin-left: 80px;
+    float: left;
+    font-size: 38px;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100vh;
+    /* justify-content: end; */
+    /* align-items: end; */
+}
+.nav-menu ul li{
+    margin-right: 40px;
+    font-size: 25px;
+}
+.nav-menu ul a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+.nav-menu ul a:hover{
+    color: red;
+    
+}
+
+
+
+
+.left-container{
+    width: 55%;
+    height: 600px;
+    /* border: 2px solid red; */
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    
+
+}
+.left-container h1,.left-container h2,.left-container button{
+    margin-left: 30vh;
+    margin-top: 10px;
+}
+.left-container span{
+    color: blue;
+}
+.left-container button{
+    width: 15vh;
+    height: 40px;
+    border-radius: 30px;
+}
+.left-container button:hover{
+    background-color: rgb(202, 107, 107);
+    color: white;
+}
+.right-container{
+    width: 44%;
+    height: 600px;
+    /* border: 2px solid red; */
+     float: right;  
+}
+.right-container img{
+    height: 60%;
+    margin-top: 20vh;
+    border-radius: 3vh;
+    opacity: 0.8;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-last{
+    width: 100%;
+    height: 60px;
+    background-color:  rgb(65, 56, 56);
+    color: white;
+    font-family: 'Piazzolla', serif;
+    font-size: large;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------------- weather section------------- */
+.main_content{
+    position: absolute;
+    top: 15vh;
+    left: 13vh;
+}
+.temp_form{
+    margin-left: 70vh;
+    /* margin-top: 16px; */
+    
+ 
+}
+#cityName{
+    width: 78%;
+    height: 6vh;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 22px;
+    box-shadow: 5px 8px 20px 6px rgb(192, 144, 144) ;
+}
+#submitBtn{
+    width:23%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 5px;
+    font-size: 25px;
+    box-shadow: 5px 8px 20px 6px rgb(192, 144, 144)
+}
+#submitBtn:hover{
+    background-color: rgb(65, 56, 56);
+    color: aliceblue;
+}
+
+
+
+
+.image img{
+  width: 100%;
+  height: 600px;
+}
+
+
+
+
